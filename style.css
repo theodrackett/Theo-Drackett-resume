@@ -2,9 +2,17 @@ body {
     background-color: azure;
 }
 
+h1 {
+    margin-left: 30%;
+}
 
 h2 {
-    margin-left: 350px;
+    margin-left: 100px;
+}
+
+p {
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .nav-bar {
@@ -19,82 +27,48 @@ h2 {
     text-align: center;
 }
 
-.home {
+.nav-whitesmoke {
     background-color: whitesmoke;
 }
 
-.resume {
+.nav-azure {
     background-color: azure;
 }
 
-.hobbies {
+.nav-whitesmoke {
     background-color: whitesmoke;
 }
 
-.contact {
+.nav-azure {
     background-color: azure;
 }
 
 .footer {
+    margin-left: 0%;
+    margin-right: 80%;
     height: 20px;
     border-color: whitesmoke;
 }
 
 .profile-pic {
     background-color: azure;
-    margin-left: 30%;
+    margin-left: 35%;
     margin-top: 20px;
-    width: 10%;
-}
-
-.about {
-    display: block;
+    margin-bottom: 20px;
 }
 
 #summary {
     display: block;
     margin-top: 10px;
-    margin-left: 22%;
-    margin-right: 20%;
-}
-.employer {
-    
-    display: block;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-.lang-fram-plat-div {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.lang-fram-plat-headings-div {
-    overflow: hidden;
-    width: auto;
-    display: inline;
-    margin-left: 15%;
-}
-
-.lang-fram-plat-headings-item {
-   float:left;
-   margin-left: 60px;
-   margin-right: 150px;
-}
-
-.platform-heading {
-    margin-left: 10px;
-}
-
-.lang-fram-plat-list-div {
-    flex: 100%;
-    display: flex;
-    margin-left: 16%;
+    margin-left: 2%;
     margin-right: 30%;
 }
 
-.lang-fram-plat-list-item {
-    flex: 33%;
+.list-block {
+    display: block;
+    margin-top: 10px;
+    margin-left: 12%;
+    margin-right: 30%;
 }
 
 #frameworks {
@@ -105,12 +79,6 @@ ul {
     
     display: block;
     margin-top: 10px;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-h1 {
-    margin-left: 30%;
 }
 
 .hobbies {
@@ -129,3 +97,10 @@ h1 {
     font-size: larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.addy {
+    margin-left: 10%;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+

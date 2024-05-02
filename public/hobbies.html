@@ -9,31 +9,30 @@
 
 <body>
     <div class="nav-bar">
-        <div class="home">
-            <a href="../index.html">HOME</a>
+        <div class="nav-whitesmoke">
+          <a href="../index.html">HOME</a>
         </div>
-        <div class="resume">
-            <a href="./resume.html">RESUME</a>
+        <div class="nav-azure">
+          <a href="./resume.html">RESUME</a>
         </div>
-        <div class="hobbies">
-            <a href="./hobbies.html">HOBBIES</a>
+        <div class="nav-whitesmoke">
+          <a href="./hobbies.html">HOBBIES</a>
         </div>
-        <div class="contact">
-            <a href="./contact.html">CONTACT</a>
+        <div class="nav-azure">
+          <a href="./contact.html">CONTACT</a>
         </div>
-    </div>
-    <h1>THINGS I LIKE TO DO</h1>
-    <div class="hobbies">
+      </div>
+    <h2>Things I like to do and thigs I love to say</h2>
+    <div id="hobbies" class="list-block">
         <ul class="my-hobbies-list">
             <li>Learning is my number one. I love to learn!</li>
-            <li>Hitting the gym is a strong second.</li>
+            <li>I love it when a plan comes together!</li>
             <li>Like everyone else, I love to travel!</li>
-            <li>I love to read.</li>
+            <li>Like everyone else, I love to read.</li>
             <li>And play video games. Fun fact, I used to own a vides game store.</li>
             <li>I also love coding. I actually wrote an app in both SWIFT and Kotlin that actually made to their respective app  
                 store and sold a few copies. Yes, only a few.  I suck at marketing</li>
-            <li>And finally, I love to write. I actually wrote a book called "Uncle Sam I Want My Money Back Mon!". 
-                Please don't read it. It's kind of embarrassing.
+            <li>And finally, I love to write. <a href="#" onclick="showFunFact()">Fun fact!</a> 
         </ul>
     </div>
 
@@ -41,5 +40,10 @@
     <div class="footer">
         <p>@Theo Drackett   2024</p>
     </div>
+    <script>
+        function showFunFact() {
+            alert("I actually wrote a book called, Uncle Sam I Want My Money Back Mon!.  Please don't read it. It's kind of embarrassing.");
+        }
+        </script>
 </body>
 </html>
